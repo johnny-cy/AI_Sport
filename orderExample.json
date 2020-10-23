@@ -1,0 +1,104 @@
+{
+    "code": 200,
+    "msg": "SUCCESS",
+    "systemTime": 1592640672260,
+    "data": {
+        "totalCount": 1,
+        "pageDTOList": [
+            {
+                "orderTime": 1591346129409,  *********************************這個長度有問題最好別修改這條，然後將轉成為datetime的另外存一個欄位叫做orderDateTime 而原本的還是叫做orderTime
+                "orderGroup": "GOD20060516352901842", 
+                "betNum": 1,
+                "combo": 1,
+                "isFinish": 1,
+                "finishDate": "2020-06-06 03:19:50",
+                "orderDTOList": [
+                    {
+                        "remoteIp": "10.2.65.99",
+                        "orderId": "AIS20060516352901018",
+                        "gameType": "FT",
+                        "ticketId": "17106862",
+                        "gold": 10,
+                        "winGold": 0,
+                        "state": 3,
+                        "creditState": 1,
+                        "resultDate": 1591384790000,
+                        "resultDetail": "L",
+                        "winAndLossGold": -10,
+                        "isCredit": "N",
+                        "gameTypeSon": null,
+                        "allowFollow": null,
+                        "oddfType": "E",
+                        "sourceCompany": "ib",
+                        "betType": 1,
+                        "betDTOList": [
+                            {
+                                "showType": "FT", *****************************足球
+                                "gameId": "1198334",
+                                "playType": "HM",
+                                "ratioType": "HMH",
+                                "strong": "C",
+                                "gameDate": 1591381800000,
+                                "awayId": "FT_102121",
+                                "homeId": "FT_110164",
+                                "awayTeam": "门兴格拉德巴赫",
+                                "homeTeam": "弗赖堡",
+                                "leagueId": "FT_100028",
+                                "leagueName": "德国甲组联赛", ***************賽名
+                                "leagueShortName": "德国甲组联赛", 
+                                "leagueLogo": null,
+                                "score": "",
+                                "ioRatio": "4.40",
+                                "ratio": "4400",
+                                "handicap": null,
+                                "maxCredit": "0",
+                                "resultScore": "0:0",
+                                "gidm": "ib_3034599",
+                                "betItem": "弗赖堡",
+                                "betResultDetail": "L",
+                                "session": null,
+                                "teamSuffix": "",
+                                "specifiers": null,
+                                "thridSeason": null,
+                                "round": null,
+                                "overFlag": "1",
+                                "championType": null
+                            }
+                        ],
+                        "events": {
+                            "9": [
+                                "1_3481"
+                            ],
+                            "18": [
+                                "1_950",
+                                "2_1306",
+                                "1_1500",
+                                "1_2397",
+                                "2_2700",
+                                "1_5097"
+                            ],
+                            "21": [
+                                "2_4029"
+                            ],
+                            "30": [
+                                "2_345",
+                                "2_1148",
+                                "2_1236",
+                                "1_1690",
+                                "2_2290",
+                                "2_3105",
+                                "2_3182",
+                                "2_4792",
+                                "2_5159",
+                                "2_5187",
+                                "1_5272",
+                                "1_5400",
+                                "2_5400"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
